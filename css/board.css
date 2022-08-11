@@ -1,0 +1,173 @@
+.notice-cont .notice-top {
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 40px 0;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.notice-cont .notice-top h3 {
+    font-size: 1.5em;
+}
+.notice-cont .notice-top ul {
+    display: inline-block;
+    margin-top: 20px;
+}
+.notice-cont .notice-top ul li {
+    float: left;
+}
+.notice-cont .notice-top ul li a {
+    font-size: 14px;
+    padding: 0 5px;
+    color: #666;
+}
+.notice-cont .notice-top ul li a:hover {
+    font-weight: bold;
+}
+
+/* notice_mid */
+.notice_mid {
+    padding: 30px 0;
+}
+.notice_mid .search-wrap {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+.notice_mid .search-wrap .count {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.notice_mid .search-wrap .search select {
+    width: 80px;
+    height: 32px;
+    vertical-align: middle;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
+.notice_mid .search-wrap .search input {
+    width: 150px;
+    height: 32px;
+    vertical-align: middle;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
+.notice_mid .search-wrap .search button {
+    width: 50px;
+    height: 34px;
+    vertical-align: middle;
+    border-radius: 5px;
+    background: #4f7b9e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.notice_mid .board-wrap {
+    margin-top: 30px;
+    border-bottom: 2px solid #999;
+}
+.notice_mid .board-wrap .cf .title {
+    width: 50%;
+    text-align: left;
+}
+.notice_mid .board-wrap .board-top {
+    background: #ddd;
+    border-top: 2px solid #18908a;
+}
+.notice_mid .board-wrap .board-top > div{
+    float: left;
+    width: 10%;
+    text-align: center;
+    padding: 15px 0;
+    color: #333;
+}
+.notice_mid .board {
+    border-top: 1px solid #ccc;
+}
+.notice_mid .board label {
+    cursor: pointer;
+}
+.notice_mid .board:hover {
+    background: #f0f0f0;
+}
+.notice_mid .board > div {
+    float: left;
+    width: 10%;
+    text-align: center;
+    padding: 15px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.notice_mid .board input {
+    display: none;
+}
+.notice_mid .board .content-wrap {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    text-align: left;
+    padding: 0 100px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+.notice_mid .board .content-wrap .subject {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    white-space: normal;
+}
+.notice_mid .board input:checked ~ .content-wrap {
+    height: auto;
+    padding: 30px 100px;
+    white-space: normal;
+}
+
+.notice_mid .board-nav {
+    text-align: center;
+    margin: 30px 0;
+}
+.notice_mid .board-nav > a {
+    float: right;
+    width: 60px;
+    height: 40px;
+    line-height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.notice_mid .board-nav ul {
+    display: inline-block;
+}
+.notice_mid .board-nav ul li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin: 0 3px;
+}
+.notice_mid .board-nav ul li a {
+    display: block;
+    line-height: 40px;
+    width: 100%;
+    height: 100%;
+}
+.notice_mid .board-nav ul li:nth-child(2) a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.notice_mid .board-nav ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* notice-bot */
+.notice-bot {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
